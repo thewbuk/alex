@@ -26,7 +26,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          {children}
+          <div className="bg-white dark:bg-black"> {children}</div>
         </ThemeProvider>
       </body>
     </html>
